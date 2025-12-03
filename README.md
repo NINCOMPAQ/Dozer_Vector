@@ -24,7 +24,7 @@ python run_model.py --task traffic_state_pred --model PDFormerDV --dataset METR_
 If you have trained a model as above and only want to test it, you can set it as follows (taking PeMS08 as an example, assuming the experiment ID during training is $ID):
 
 ```shell
-python run_model.py --task traffic_state_pred --model PDFormer --dataset PEMS-BAY --config_file PEMS-BAY --train false --exp_id $ID
+python run_model.py --task traffic_state_pred --model PDFormerDV --dataset PEMS-BAY --config_file PEMS-BAY --train false --exp_id $ID
 ```
 
 **Note**: By default the result recorded in the experiment log is the average of the first n steps. This is consistent with the paper (configured as **"mode": "average"** in the JSON file). If you need to get the results of each step separately, please modify the configuration of the JSON file to **"mode": "single"**.
