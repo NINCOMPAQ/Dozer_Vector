@@ -1,0 +1,15 @@
+{
+    "traffic_state_pred": {
+        "allowed_model": [
+            "PDFormerDV"
+        ],
+        "allowed_dataset": [
+            "PEMS_BAY", "METR_LA"
+        ],
+        "PDFormerDV": {
+            "dataset_class": "PDFormerDataset",
+            "executor": "PDFormerExecutor",
+            "evaluator": "TrafficStateEvaluator"
+        }
+    }
+}
