@@ -8,7 +8,7 @@ pip install -r requirements.txt
 
 ## Data
 
-The dataset link is https://zenodo.org/records/5146275. You can download the datasets and place them in the `raw_data` directory after converting to LibCity atomized format.
+The dataset link is https://drive.google.com/drive/folders/1g5v2Gq1tkOq8XO0HDCZ9nOTtRpB6-gPe. You can download the datasets and place them in the `raw_data` directory.
 
 Note that our model would calculate a **DTW matrix** and a **traffic pattern set** for each dataset, which is time-consuming. Therefore, we have provided DTW matrices and traffic pattern sets of all datasets in `./libcity/cache/dataset_cache/`.
 
