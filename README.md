@@ -1,3 +1,5 @@
+This is an official implementation of the Dozer-Vector Module within the Propagation Delay-Aware Long Range Transformer for Traffic Flow Prediction (PDFormer source available at https://github.com/BUAABIGSCity/PDFormer).
+
 ## Requirements
 
 Our code is based on Python version 3.9.7 and PyTorch version 1.10.1. Please make sure you have installed Python and PyTorch correctly. Then you can install all the dependencies with the following command by pip:
@@ -39,9 +41,23 @@ Code based on [LibCity](https://github.com/LibCity/Bigscity-LibCity) framework d
 If you find the paper useful, please cite as following:
 
 ```
-TBA
+TBA - soon to be published in IEEE Big Data 2025 conference
 ```
 
+
+If you find PDFormer useful, please cite as
+@inproceedings{pdformer,
+  title={PDFormer: Propagation Delay-aware Dynamic Long-range Transformer for Traffic Flow Prediction},
+  author={Jiawei Jiang and 
+  		  Chengkai Han and 
+  		  Wayne Xin Zhao and 
+  		  Jingyuan Wang},
+  booktitle = {{AAAI}},
+  publisher = {{AAAI} Press},
+  year      = {2023}
+}
+
+```
 If you find [LibCity](https://github.com/LibCity/Bigscity-LibCity) useful, please cite as following:
 
 ```
