@@ -46,6 +46,8 @@ TBA - soon to be published in IEEE Big Data 2025 conference
 
 
 If you find PDFormer useful, please cite as
+
+```
 @inproceedings{pdformer,
   title={PDFormer: Propagation Delay-aware Dynamic Long-range Transformer for Traffic Flow Prediction},
   author={Jiawei Jiang and 
